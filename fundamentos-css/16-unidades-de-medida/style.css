@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+header {
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+
+.px {
+    height: 10px;
+}
+
+/* Root Element -> 16px * 3 = 48px , 3X UNIDADE PADRAO DO SITE*/
+.rem {
+    height: 3rem;
+}
+
+/* Tamanho varia de acordo com o proprio elemento */
+.em {
+    height: 2em;
+}
+
+/* viewport height */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width */
+.vw {
+    width: 100vw;
+}

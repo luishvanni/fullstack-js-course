@@ -1,0 +1,23 @@
+/* Seletor :nth-child() */
+li:nth-child(2) {
+   color: red;
+}
+
+li:nth-child(2n) {
+    color: blue
+}
+
+li:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+/* pseudo-elentos --> ::before ; ::after */
+
+li::before {
+    content: "(antes)-> ";
+}
+
+li::after {
+    content: " <-(depois)";
+}
