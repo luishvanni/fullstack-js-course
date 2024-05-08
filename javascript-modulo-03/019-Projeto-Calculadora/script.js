@@ -13,7 +13,7 @@ document.querySelectorAll('.charKey').forEach(function (charKeyBtn){
     })
 })
 
-//botão de limpar
+//botão de limpar (C)
 document.getElementById('clear').addEventListener('click', function(){
     input.value = ''
     input.focus() //input ja fica selecionado automaticamente
@@ -39,7 +39,7 @@ input.addEventListener('keydown', function (ev){
 function calculate() {
     resultInput.value = 'ERROR'
     resultInput.classList.add('error')
-    
+
     const result = eval(input.value)
     resultInput.value = result
     resultInput.classList.remove('error')
